@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contacto</title>
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="./css/contacto.css">
+</head>
+<body>
+    <!-- etiqueta semantica -->
+    <header class="cabecera bg-inicio">
+        <div class="logo">
+            <img src="./assets/images/logo.jpg" alt="logo" width="250px">
+        </div>
+
+         <!-- etiqueta semantica -->
+         <nav class="navbar">
+            <ul>
+                <li class="nav-item active">
+                    <a href="./index.html">INICIO</a>
+                </li>
+                <li class="nav-item active">
+                    <a href="./equipo.html">EQUIPAMIENTO</a>
+                </li>
+                <li class="nav-item active">
+                    <a href="./circuitos.html">CIRCUITOS</a>
+                </li>
+                <li class="nav-item active">
+                    <a href="./multimedia.html">MULTIMEDIA</a>
+                </li>
+                <li class="nav-item active">
+                    <a href="./contacto.html">CONTACTO</a>
+                </li>
+            </ul>       
+    </header>
+
+    <form action="">
+        <label for="nombre">nombre</label>
+        <input type="text" id="nombre" name="nombre" maxlength="80" placeholder="ingrese su nombre">
+          
+        <label for="email">email</label>
+        <input type="email" id="email" name="email" maxlength="30" placeholder="ingrese su email">
+        
+        <label for="fenac">fecha de nacimiento</label>
+        <input type="date" id="fenac" name="fenac">
+
+        <label for="consulta">consulta</label>
+        <textarea id="consulta" name="consulta" maxlength="200" placeholder="detalle de su consulta"></textarea>
+
+        <div class="enviar">
+            <input type="submit" value="enviar">
+        </div>
+        
+    </form>        
+
+
+    <!-- etiqueta semantica -->
+    <footer>
+        <ul class="redes-sociales">
+            <li><a href="https://www.facebook.com" target="_blank"><img src="./assets/images/facebook.png" alt="Facebook"></a></li>
+            <li><a href="https://www.twitter.com" target="_blank"><img src="./assets/images/twitter.png" alt="Twitter"></a></li>
+            <li><a href="https://www.instagram.com" target="_blank"><img src="./assets/images/instagram.png" alt="Instagram"></a></li>
+        </ul>
+    </footer>
+</body>
+</html>

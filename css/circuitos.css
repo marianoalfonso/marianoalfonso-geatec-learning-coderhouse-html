@@ -1,0 +1,40 @@
+body{
+    background-image: url('../assets/images/backgrounds/bck-circuitos_opt.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    position: relative;
+    margin: 0;
+    padding: 0;
+}
+
+.circuito {
+    padding: 15px;
+    color: white;
+    font-size: 20px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 70%;
+    margin: 0 auto;
+    background-color: #31050598;
+}
+
+th, td {
+    border: 2px solid #e6dee66b;
+    padding: 8px;
+    text-align: center;
+}
+
+th {
+    background-color: #310505;
+    text-align: center;
+}
+
+table img {
+    width: 120px;
+    height: 60px;
+}

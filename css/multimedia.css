@@ -1,0 +1,39 @@
+body{
+    background-image: url('../assets/images/backgrounds/bck-multimedia.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    position: relative;
+    margin: 0;
+    padding: 0;
+}
+
+.multimedia {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    /* background-color: rgba(84, 31, 168, 0.39); */
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.video-preview {
+    background-color: white;
+    height: 300px;
+    width: 300px;
+    border: 1px solid;
+    border-radius: 10px;
+    margin: 10px;
+    overflow: hidden;
+    position: relative;
+}
+
+.video-preview video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
