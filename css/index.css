@@ -6,12 +6,13 @@
 }
 
 @font-face {
-    font-family: 'CaptureIt';
-    src: url('../assets/fonts/CaptureIt.ttf');
+    /* font-family: 'CaptureIt';
+    src: url('../assets/fonts/CaptureIt.ttf'); */
 }
 
 body{
-    background-image: url('../assets/images/backgrounds/bck-index_opt.jpg');
+    /* background-image: url('../assets/images/backgrounds/bck-index_opt.jpg'); */
+    background-image: url('../assets/images/backgrounds/bak_index_2.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     display: flex;
@@ -22,39 +23,39 @@ body{
     padding: 0;
 }
 
-header.cabecera{
-    background-color: black;
-    display: flex;
-    font-family: 'CaptureIt';
-}
-
 .navbar ul {
-    list-style: none; /* Quita los estilos de lista */
+    list-style: none;
     padding: 0;
-    margin: 25px;
+    margin: 15px;
 }
 
 .navbar ul li {
     display: inline;
-    padding: 22px;
-    margin-left: 45px;   
+    padding: 10px;
+    margin-left: 10px;   
 }
 
 .navbar ul li a{
-    color: white;
+    color: rgb(255, 255, 255);
     text-decoration: none;
-    font-size: 36px;
+    font-size: 26px;
 }
 
 p {
-    color: white;
+    
     font-size: xx-large;
 }
 
 .bienvenida{
+    color: white;
+    font-size: xx-large;
     display: block;
     text-align: right;
     padding: 20px;
+    box-sizing: border-box;
+
+    height: auto;
+    padding: 50px;
 }
 
 footer{

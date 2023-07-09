@@ -1,0 +1,24 @@
+index.html
+navbar con bootstrap
+footbar con bootstrap
+
+equipo.html
+navbar con bootstrap
+footbar con bootstrap
+secciones con grid de bootstrap
+imagenes en formulario modal de bootstrap
+
+circuitos.html
+navbar con bootstrap
+footbar con bootstrap
+
+multimedia.html
+navbar con bootstrap
+footbar con bootstrap
+
+contacto.html
+navbar con bootstrap
+footbar con bootstrap
+form de contacto con bootstrap
+
+se movieron todas las paginas excepto index.html a la carpeta {pages}
