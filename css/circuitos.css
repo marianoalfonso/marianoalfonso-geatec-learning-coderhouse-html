@@ -38,3 +38,13 @@ table img {
     width: 120px;
     height: 60px;
 }
+
+/* media queries */
+@media screen and (max-width: 480px) {
+
+    body{
+        background-image: url(''); /*deshabilito la imagen*/
+        background-color: black;
+    }
+
+}

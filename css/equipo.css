@@ -57,3 +57,23 @@ body{
     font-size: 26px;
     color: white;
 }
+
+/* media queries */
+@media screen and (max-width: 480px) {
+
+    body{
+        background-image: url(''); /*deshabilito la imagen*/
+        background-color: black;
+    }
+
+    .description {
+        font-size: 10px;
+    }
+
+}
+
+/* pseudoclases */
+.container img:hover {
+    transition: 1s;
+    transform: scale(1.05);
+}

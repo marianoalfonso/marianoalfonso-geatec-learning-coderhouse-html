@@ -1,24 +1,22 @@
-index.html
-navbar con bootstrap
-footbar con bootstrap
+1)
+se aplico bootstrap en:
+	index.html		--> navbar / footer
+	equipo.html		--> navbar / footer / grid
+	circuitos.html	--> navbar / footer / modal forms
+	multimedia.html	--> navbar / footer
+	contacto.html	--> navbar / footer / form
 
-equipo.html
-navbar con bootstrap
-footbar con bootstrap
-secciones con grid de bootstrap
-imagenes en formulario modal de bootstrap
-
-circuitos.html
-navbar con bootstrap
-footbar con bootstrap
-
-multimedia.html
-navbar con bootstrap
-footbar con bootstrap
-
-contacto.html
-navbar con bootstrap
-footbar con bootstrap
-form de contacto con bootstrap
-
+2)
 se movieron todas las paginas excepto index.html a la carpeta {pages}
+
+3)
+se aplico media queries en:
+	index.css
+	equipo.css
+	circuitos.css
+
+se aplico pseudoclases a:
+	index.css 	 --> {.navbar li a:hover}
+	index.css 	 --> {.redes-sociales a:hover}
+	equipo.css 	 --> {.container img:hover}
+	contacto.css --> {.form-floating input:focus}
